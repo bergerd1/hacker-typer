@@ -1,0 +1,4 @@
+The authenticity of host '[cia-mainframe.local]:2222 ([10.0.3.18]:2222)' can't be established.
+ECDSA key fingerprint is SHA256:oUyI2Q6W0Wh+uD7vTTKvobI3k0HTlOOyKfXsYRIUZ1w.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '[cia-mainframe.local]:2222,[10.0.3.18]:2222' (ECDSA) to the list of known hosts.

@@ -1,0 +1,13 @@
+
+Username : root
+Password : ******************
+
+µ
+
+root@cia:~# ssh -p 2222 root@cia-mainframe.local
+
+µ
+
+root@cia-mainframe.local's password: ********************
+
+µ
