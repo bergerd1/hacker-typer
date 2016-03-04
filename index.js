@@ -1,17 +1,14 @@
 'use strict';
 let fs       = require('fs');
-let through  = require('through2');
-let duplexer = require('duplexer2');
-let split    = require('split');
+let glob     = require('glob');
 
 // File streams
 let fileStream = fs.createReadStream('./inputs/hacker.txt',{encoding:'utf8'});
-let streams = [
-  fs.createReadStream('./inputs/part1.txt',{encoding:'utf8'}),
-  fs.createReadStream('./inputs/part2.txt',{encoding:'utf8'}),
-  fs.createReadStream('./inputs/part3.txt',{encoding:'utf8'}),
-  fs.createReadStream('./inputs/part4.txt',{encoding:'utf8'})
-];
+
+// Block streams
+let streams =  glob.sync('./inputs/part*.txt').map(item =>{
+  return fs.createReadStream(item,{encoding:'utf8'});
+});
 
 // Streams
 let str      = require('./streams')(fileStream,streams);

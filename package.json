@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/MatthieuLemoine/hacker-typer#readme",
   "dependencies": {
-    "duplexer2": "^0.1.4",
+    "glob": "^7.0.0",
     "split": "^1.0.0",
     "through2": "^2.0.1"
   }
