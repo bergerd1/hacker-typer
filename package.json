@@ -1,0 +1,29 @@
+{
+  "name": "hacker-typer",
+  "version": "1.0.0",
+  "description": "Just a hacker typer with streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthieuLemoine/hacker-typer.git"
+  },
+  "keywords": [
+    "stream",
+    "hacker",
+    "typer"
+  ],
+  "author": "MatthieuLemoine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthieuLemoine/hacker-typer/issues"
+  },
+  "homepage": "https://github.com/MatthieuLemoine/hacker-typer#readme",
+  "dependencies": {
+    "duplexer2": "^0.1.4",
+    "split": "^1.0.0",
+    "through2": "^2.0.1"
+  }
+}
