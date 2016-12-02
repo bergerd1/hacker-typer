@@ -1,0 +1,12 @@
+~                                           VIM - Vi IMproved
+~
+~                                              version 7.3
+~                                        by Bram Moolenaar et al.
+~                              Vim is open source and freely distributable
+~
+~                                        Sponsor Vim development!
+~                            type  :help sponsor<Enter>    for information
+~
+~                            type  :q<Enter>               to exit
+~                            type  :help<Enter>  or  <F1>  for on-line help
+~                            type  :help version7<Enter>   for version info
