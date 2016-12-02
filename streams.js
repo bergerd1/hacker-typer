@@ -39,7 +39,7 @@ function slowStream(){
     setTimeout(() => {
       this.push(chunk);
       next();
-    },10);
+    },0);
   },function(done){
     process.stdin.resume();
     done();
